@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ZookeeperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-18T06:38:30" hostname="MacBook-Pro-uzivatela-Cuninka.local" time="0.52">
+<testsuite name="ZookeeperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-18T07:47:12" hostname="MacBook-Pro-uzivatela-Cuninka.local" time="0.67">
   <properties/>
-  <testcase name="start" classname="ZookeeperTest" time="0.52"/>
+  <testcase name="start" classname="ZookeeperTest" time="0.67"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Please enter the number of the

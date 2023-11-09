@@ -18,7 +18,7 @@
     But wasting cares lay heavy on his mind:
     In his black thoughts revenge and slaughter roll,
     And scenes of blood rise dreadful in his soul."
-    """;</code></pre><p>Likewise, the SQL query is improved significantly. If you don't know anything about SQL, just know that the String in the following code block is written exactly as a native SQL query would be. Where the traditional Java way of writing the query obscured the meaning of the code, the Java 15 text block could not make it any clearer. </p><pre><code class="language-java">String query = """
+    """;</code></pre><p>Note that in earlier Java versions (up to 15), such a string with triple quotes will not be compiled.</p><p>Likewise, the SQL query is improved significantly. If you don't know anything about SQL, just know that the String in the following code block is written exactly as a native SQL query would be. Where the traditional Java way of writing the query obscured the meaning of the code, the Java 15 text block could not make it any clearer. </p><pre><code class="language-java">String query = """
     SELECT "EMP_ID", "LAST_NAME" FROM "EMPLOYEE_TB"
     WHERE "CITY" = 'INDIANAPOLIS'
     ORDER BY "EMP_ID", "LAST_NAME";

@@ -1,9 +1,9 @@
 type: edu
 custom_name: What's inside?
 files:
-- name: src/Main.java
-  visible: true
-  text: "public class Main {\n    public static void main(String[] args) {\n     \
+  - name: src/Main.java
+    visible: true
+    text: "public class Main {\n    public static void main(String[] args) {\n     \
     \   String camel = \"\"\"\n            Switching on the camera in the camel habitat...\n\
     \             ___.-''''-.\n            /___  @    |\n            ',,,,.     |\
     \         _.'''''''._\n                 '     |        /           \\\\\n    \
@@ -80,10 +80,10 @@ files:
     \            l       I     !\n             ]\\\\      _\\\\    /\"\\\\\n     \
     \       (\" ~----( ~   Y.  )\n            It looks like we will soon have more\
     \ rabbits!\"\"\";\n\n        // write your code here\n    }\n}"
-  learner_created: false
-- name: test/ZookeeperTest.java
-  visible: false
-  text: "import org.hyperskill.hstest.dynamic.DynamicTest;\nimport org.hyperskill.hstest.stage.StageTest;\n\
+    learner_created: false
+  - name: test/ZookeeperTest.java
+    visible: false
+    text: "import org.hyperskill.hstest.dynamic.DynamicTest;\nimport org.hyperskill.hstest.stage.StageTest;\n\
     import org.hyperskill.hstest.testcase.CheckResult;\nimport org.hyperskill.hstest.testing.TestedProgram;\n\
     \nimport java.util.Map;\n\npublic class ZookeeperTest extends StageTest {\n\n\
     \    final String camel = \"\"\"\n        Switching on the camera in the camel\
@@ -174,7 +174,7 @@ files:
     \ {\n            return CheckResult.wrong(\"You should output the message about\
     \ the end of the program!\");\n        }\n\n        return CheckResult.correct();\n\
     \    }\n}"
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/17790#comment
 status: Solved
 feedback:
